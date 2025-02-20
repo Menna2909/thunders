@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('./photo-1628258334105-2a0b3d6efee1.avif') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 5rem 1rem;
+}
+
+.features, .about, .courses, .resources, .assignments, .contact, .account {
+    padding: 2rem 1rem;
+    background-color: #f9f9f9;
+}
+
+.feature, .module, .assignment {
+    background: white;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.testimonials {
+    background: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.social-media a {
+    color: white;
+    margin: 0 0.5rem;
+    text-decoration: none;
+}
+
+.assis {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#assignment-list{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.data_test {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
